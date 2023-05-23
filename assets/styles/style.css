@@ -21,7 +21,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background-color: #aae3ed;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +37,7 @@ body {
     transition: .3s;
 }
 
-.navbar a:hover {
-    color: #ededed;
+.navbar a:hover,
+.navbar a.active {
+    color: #c9a7d0;
 }
