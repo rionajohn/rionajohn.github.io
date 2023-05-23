@@ -10,3 +10,11 @@
     font-family: Pacifico;
 
 }
+
+body {
+    background-color: darkgray;
+}
+
+.header{
+    background-color: lightcoral;
+}
