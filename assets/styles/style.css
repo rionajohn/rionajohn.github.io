@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Pacifico';
-    src: url(assets/fonts/Pacifico-Regular.ttf) format('truetype');
+    src: url("assets/fonts/Pacifico-Regular.ttf") format('truetype');
   }
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #3d276c;
+    background-color: #674f9c;
 }
 
 .header{
@@ -39,5 +39,5 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #c9a7d0;
+    color: #03c99b;
 }
