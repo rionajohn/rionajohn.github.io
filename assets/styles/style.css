@@ -12,9 +12,14 @@
 }
 
 body {
-    background-color: darkgray;
+    background-color: rgb(40, 31, 60);
 }
 
 .header{
-    background-color: lightcoral;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(170, 227, 237);
 }
