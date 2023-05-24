@@ -13,7 +13,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Electrolize";
-
 }
 
 body {
@@ -43,4 +42,13 @@ body {
 .navbar a:hover,
 .navbar a.active {
     color: #03c99b;
+}
+
+.Name {
+    background-image: url("assets/images/purple-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 60px;
 }
