@@ -44,11 +44,12 @@ body {
     color: #03c99b;
 }
 
-.Name {
+.name {
     background-image: url("assets/images/purple-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     font-size: 60px;
+    font-family: "Pacifico";
 }
