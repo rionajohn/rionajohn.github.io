@@ -41,11 +41,11 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #03c99b;
+    color: #7ad4bf;
 }
 
 .home {
-    background-image: url("./images/purple-background.JPG");
+    background-image: url("./assets/images/purple-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
