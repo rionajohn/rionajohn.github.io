@@ -45,7 +45,7 @@ body {
 }
 
 .home {
-    background-image: url("assets/images/purple-background.jpg");
+    background-image: url("./images/purple-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +57,7 @@ body {
 }
 
 .home-content{
-    font-size: 60px;
+    font-size: 120%;
     color: white;
     font-family: "Pacifico";
 }
