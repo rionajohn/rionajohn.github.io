@@ -44,12 +44,20 @@ body {
     color: #03c99b;
 }
 
-.name {
+.home {
     background-image: url("assets/images/purple-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-content{
     font-size: 60px;
+    color: white;
     font-family: "Pacifico";
 }
