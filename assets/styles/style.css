@@ -31,11 +31,11 @@ body {
 
 .navbar a {
     font-size: 25px;
-    font-family: "Electrolize";
     color: #ededed;
+    font-family: "Electrolize";
     text-decoration: none;
     font-weight: 500;
-    /* margin-left: 35px; */
+    margin-left: 35px;
     transition: .3s;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .home {
-    background-image: url("https://unsplash.com/photos/arwTpnIUHdM");
+    background-image: url("./images/purple-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
