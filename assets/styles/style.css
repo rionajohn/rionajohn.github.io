@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Electrolize";
 }
 
 body {
@@ -32,10 +31,11 @@ body {
 
 .navbar a {
     font-size: 25px;
+    font-family: "Electrolize";
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    /* margin-left: 35px; */
     transition: .3s;
 }
 
