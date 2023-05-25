@@ -80,7 +80,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 20vh;
 }
 
 .aboutMeDescription p {
@@ -88,4 +88,30 @@ body {
   text-align: center;
   color: #ffffff;
   font-family: "Baskerville";
+}
+
+.contactFormContainer {
+  background-color: rgb(126, 103, 144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form {
+  background-color: #b0473d;
+  border-radius: 15px;
+  padding: 3vh;
+  width: 100vh;
+}
+
+.form-control{
+  margin-bottom: 4px;
+}
+
+.form-header{
+  color: white;
+  font-weight: 10px;
+  font-family: "Electrolize";
+  text-align: center;
 }
