@@ -1,62 +1,81 @@
 @font-face {
-    font-family: 'Electrolize';
-    src: url("./fonts/Electrolize-Regular.ttf") format('truetype');
-  }
+  font-family: "Electrolize";
+  src: url(./fonts/Electrolize-Regular.ttf) format("truetype");
+}
 
 @font-face {
-    font-family: 'Pacifico';
-    src: url("assets/fonts/Pacifico-Regular.ttf") format('truetype');
-  }
+  font-family: "Baskerville";
+  src: url(./fonts/Baskervville-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url(assets/fonts/Pacifico-Regular.ttf) format("truetype");
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #674f9c;
+  background-color: #674f9c;
 }
 
-.header{
-    position: fixed;
-    width: 100%;
-    padding: 20px 10%;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 10%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
 }
 
 .navbar a {
-    font-size: 25px;
-    color: #ededed;
-    font-family: "Electrolize";
-    text-decoration: none;
-    font-weight: 500;
-    transition: .3s;
+  font-size: 25px;
+  color: #ededed;
+  font-family: "Electrolize";
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.3s;
 }
 
 .navbar a:hover,
 .navbar a.active {
-    color: #7ad4bf;
+  color: #7ad4bf;
 }
 
 .home {
-    background-image: url("./assets/images/purple-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(./assets/images/purple-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.home-content{
-    font-size: 120px;
-    color: white;
-    font-family: "Pacifico";
+.home-content {
+  font-size: 120px;
+  color: white;
+  font-family: "Pacifico";
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+  height: 20vh;
+}
+
+.aboutMeDescription {
+  font-size: 20px;
+  font-family: "Baskerville";
 }
