@@ -14,8 +14,8 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -46,7 +46,6 @@ body {
 
 .navbar a:hover, .navbar a.active {
   background-color: #774f8b;
-  /* color: #151515; */
 }
 
 .home {
@@ -71,19 +70,21 @@ body {
 .home-content p {
   font-size: 30px;
   color: white;
+  text-align: center;
   font-family: "Baskerville";
 }
 
-.aboutMe {
+.aboutMeContainer {
+  background-color: #000000;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #151515;
   height: 30vh;
 }
 
-.aboutMeDescription {
-  font-size: 20px;
+.aboutMeDescription p {
+  font-size: 25px;
   text-align: center;
   color: #ffffff;
   font-family: "Baskerville";
