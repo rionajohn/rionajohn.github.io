@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Electrolize";
-  src: url(./fonts/Electrolize-Regular.ttf) format("truetype");
+  src: url(../fonts/Electrolize-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Baskerville";
-  src: url(./fonts/Baskervville-Regular.ttf) format("truetype");
+  src: url(../fonts/Baskervville-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Pacifico";
-  src: url(assets/fonts/Pacifico-Regular.ttf) format("truetype");
+  src: url(../fonts/Pacifico-Regular.ttf) format("truetype");
 }
 
 * {
@@ -45,7 +45,8 @@ body {
 }
 
 .navbar a:hover, .navbar a.active {
-  color: #7ad4bf;
+  background-color: #774f8b;
+  /* color: #151515; */
 }
 
 .home {
@@ -63,12 +64,14 @@ body {
 .home-content {
   font-size: 120px;
   color: white;
+  align-items: center;
   font-family: "Pacifico";
 }
 
 .home-content p {
   font-size: 30px;
   color: white;
+  font-family: "Baskerville";
 }
 
 .aboutMe {
@@ -76,10 +79,12 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #151515;
-  height: 20vh;
+  height: 30vh;
 }
 
 .aboutMeDescription {
   font-size: 20px;
+  text-align: center;
+  color: #ffffff;
   font-family: "Baskerville";
 }
